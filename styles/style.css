@@ -1,0 +1,100 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  min-height: 100vh;
+  background-image: url(./images/sc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: larger;
+  padding: 0 10px;
+}
+
+.links {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 2px 0 2px 0;
+}
+
+a:hover {
+}
+
+.links:hover {
+  color: rgb(255, 160, 17);
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.568);
+  margin: 8px;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.logo {
+  display: inline-block;
+  align-items: center;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  text-align: left;
+}
+
+.branding {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.login {
+  position: absolute;
+  left: 860px;
+  top: 50px;
+  width: 420px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 20px;
+}
+
+p {
+  margin-left: 40px;
+  font-size: x-large;
+}
+
+form {
+  margin: 40px;
+}
+
+input {
+  height: 30px;
+  border-radius: 6px;
+  font-size: medium;
+}
+
+[placeholder] {
+  padding: 10px;
+}
+
+.btn {
+  width: 140px;
+  margin: 10px;
+  height: 40px;
+  background-color: rgb(236, 226, 129);
+}
+
+#c {
+  margin: 10px;
+  margin-top: 20px;
+  font-size: medium;
+}
