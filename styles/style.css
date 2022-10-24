@@ -2,7 +2,7 @@ body {
   margin: 0%;
   padding: 0%;
   min-height: 100vh;
-  background-image: url(./images/sc.jpg);
+  background-image: url(../images/sc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
